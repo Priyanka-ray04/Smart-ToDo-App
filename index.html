@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Smart Todo App</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Main App Container -->
+    <div class="todo-container">
+      <!-- Heading -->
+      <h1>Smart Todo App</h1>
+
+      <!-- Input Section -->
+      <div class="input-section">
+        <input type="text" id="todo-input" placeholder="Enter your task..." />
+
+        <select id="priority">
+          <option value="Low">Low Priority</option>
+          <option value="Medium">Medium Priority</option>
+          <option value="High">High Priority</option>
+        </select>
+
+        <button id="add-btn">Add Task</button>
+      </div>
+
+      <!-- Search Section -->
+      <div class="search-section">
+        <input type="text" id="search-input" placeholder="Search tasks..." />
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="filter-section">
+        <button id="all-btn">All</button>
+        <button id="completed-btn">Completed</button>
+        <button id="pending-btn">Pending</button>
+      </div>
+
+      <!-- Task Counter -->
+      <div class="task-status">
+        <p>Total Tasks: <span id="total-tasks">0</span></p>
+
+        <p>Completed: <span id="completed-tasks">0</span></p>
+
+        <p>Pending: <span id="pending-tasks">0</span></p>
+      </div>
+
+      <!-- Todo List -->
+      <ul id="todo-list">
+        <!-- Tasks will come from JavaScript -->
+      </ul>
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+  </body>
+</html>
