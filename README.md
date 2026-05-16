@@ -6,6 +6,10 @@ This project helps users manage daily tasks with features like adding, editing, 
 
 ---
 
+# Live Demo
+
+🔗 Live Website: https://priyanka-smart-todo.netlify.app/
+
 # Features
 
 - Add new tasks
